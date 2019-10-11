@@ -14,7 +14,8 @@
             $("#btnlogin").click(function () { 
                 let username = $("#username").val();
                 let password = $("#password").val();
-                if(username ==admin && password == "1234"){
+                
+                if(username =="admin" && password == "1234"){
                     alert("OK");
                 }else{
                     alert("Fail")
@@ -23,6 +24,7 @@
             });
             $("#btnreset").click(function () { 
                 $("#username").val("");
+                $("#password").val("");
                 $("#username").focus();
                 
             });
